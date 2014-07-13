@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::get('country_view', function()
+{
+    return View::make('country_view');
+});
